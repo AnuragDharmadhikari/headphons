@@ -1,0 +1,464 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #0f0f10;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+}
+
+.nav-section {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.nav-imgs {
+  display: flex;
+  gap: 50px;
+}
+
+.nav-img1 {
+  padding-top: 40px;
+}
+
+img[alt="beatslogo"] {
+  height: 25px;
+  width: 25px;
+}
+
+.nav-list {
+  margin-left: -60px;
+}
+
+.nav-list ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding-left: 30px;
+}
+
+.nav-list ul li {
+  padding-top: 35px;
+  list-style: none;
+}
+
+.nav-list ul li a {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.nav-list ul li a button {
+  padding: 12px 40px;
+  background-color: #1e1e21;
+  border-radius: 10px;
+}
+
+img[alt="mainimage"] {
+  margin-top: -110px;
+  height: 538px;
+  width: 230px;
+}
+
+.description-section {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  padding-right: 400px;
+  margin-top: -270px;
+}
+
+img[alt="onear"] {
+  padding-right: 100px;
+  width: 450px;
+}
+
+.desc-text {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.desc-text h1 {
+  font-size: 45px;
+  padding-right: 340px;
+}
+
+.desc-text h3 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.desc-p1 {
+  font-size: 12px;
+  font-weight: 200;
+  line-height: 22px;
+}
+
+.desc-btn button {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px 20px;
+  gap: 25px;
+  font-weight: 200;
+  border-radius: 10px;
+  background-color: #1e1e21;
+  border: none;
+}
+
+.desc-p2 {
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.desc-p3 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.desc-btn button img,
+.desc-btn button p {
+  background-color: #1e1e21;
+}
+
+.desc-btn img {
+  width: 15px;
+  height: 17px;
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+  justify-content: center;
+  gap: 180px;
+}
+
+.social-media img {
+  width: 80px;
+}
+
+.specs-section {
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.specs-section-mainimg img {
+  width: 190px;
+}
+
+.specs-section-desc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  margin: 50px 0;
+}
+
+.spec-desc-left {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.spec-img-right img {
+  width: 270px;
+}
+
+img[alt="bluetooth"] {
+  width: 12px;
+}
+
+img[alt="battery"] {
+  width: 20px;
+}
+
+img[alt="charger"] {
+  width: 11px;
+}
+
+img[alt="mic"] {
+  width: 12px;
+}
+
+.spec-desc-left h4 {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.spec-desc-left p {
+  font-size: 10px;
+  font-weight: 300;
+}
+
+.battery,
+.charger {
+  margin-left: -30px;
+}
+
+.case-section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 150px;
+  gap: 50px;
+}
+
+.case-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 55px;
+}
+
+img[alt="caseLogo"] {
+  width: 180px;
+}
+
+img[alt="caseImage"] {
+  width: 250px;
+}
+
+.case-desc {
+  font-size: 12px;
+  font-weight: 200;
+  line-height: 25px;
+}
+
+.case-desc button {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px 15px;
+  border: none;
+  background-color: #1e1e21;
+  border-radius: 10px;
+}
+
+.case-p1 {
+  margin-bottom: 20px;
+}
+
+.case-desc button img,
+.case-desc button p {
+  background-color: #1e1e21;
+}
+
+.immense-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  margin-bottom: 100px;
+  background-color: #181a1b;
+  width: 1054px;
+  height: 330px;
+  position: absolute;
+  left: 210px;
+  border-radius: 20px;
+}
+
+.immense {
+  position: relative;
+  margin-bottom: 600px;
+}
+
+.immense-left {
+  display: flex;
+  flex-direction: column;
+  background-color: #181a1b;
+  gap: 20px;
+}
+.immense-left h3 {
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #181a1b;
+}
+.immense-left p {
+  font-size: 14px;
+  background-color: #181a1b;
+}
+
+.immense-left button {
+  display: flex;
+  justify-content: center;
+  padding: 10px 15px;
+  gap: 15px;
+  border-radius: 10px;
+  background-color: #000000;
+}
+.immense-left button img {
+  width: 16px;
+}
+
+.immense-left button p {
+  font-size: 10px;
+  background-color: #000000;
+}
+.immense-btn {
+  background-color: #181a1b;
+}
+
+.immense-right {
+  background-color: #181a1b;
+}
+
+.immense-right img {
+  background-color: #181a1b;
+}
+
+.productLogo img {
+  width: 250px;
+  margin-bottom: 70px;
+}
+
+.all-cards {
+  width: 700px;
+  height: 400px;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  padding-top: 50px;
+}
+.cards {
+  width: 140px;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #181a1b;
+  border-radius: 12px;
+}
+.card-sec {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-img {
+  background-color: #181a1b;
+}
+
+.card-img img {
+  width: 80px;
+  margin-top: -40px;
+  background: transparent;
+}
+
+.card-cont h5,
+.card-cont p {
+  background-color: #181a1b;
+}
+
+.card-cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #181a1b;
+  gap: 30px;
+  padding-top: 20px;
+}
+.shopping--img {
+  width: 25px;
+  height: 30px;
+  background-color: #0f0f10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+img[alt="shopp"] {
+  width: 14px;
+}
+
+.card-desc h5 {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.card-desc p {
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.footer-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 400px;
+  padding-left: 70px;
+}
+
+.Products ul,
+.Support ul {
+  list-style: none;
+  padding-top: 20px;
+}
+
+.Products ul li,
+.Support ul li {
+  font-size: 12px;
+  padding: 3px;
+}
+
+.beatsLogo {
+  margin-top: -120px;
+}
+.beatsLogo img {
+  width: 28px;
+}
+.social {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 20px;
+  padding-top: 30px;
+}
+
+.social img {
+  width: 28px;
+}
+
+.form {
+  padding-bottom: 30px;
+  padding-left: 15px;
+}
+
+.mail {
+  display: flex;
+  gap: 20px;
+  background-color: #181a1b;
+  height: 50px;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.mail input {
+  width: 180px;
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 10px 10px;
+}
+.mail button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  gap: 20px;
+  padding: 8px 18px;
+  border-radius: 10px;
+  height: 40px;
+  margin-right: 6px;
+}
+
+.upArrow img {
+  width: 28px;
+  padding-bottom: 100px;
+}
